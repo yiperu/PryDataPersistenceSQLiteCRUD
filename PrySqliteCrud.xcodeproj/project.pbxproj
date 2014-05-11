@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB46FEB4191E9D9E00D327B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46FEB3191E9D9E00D327B3 /* Foundation.framework */; };
+		CB46FEB6191E9D9E00D327B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46FEB5191E9D9E00D327B3 /* CoreGraphics.framework */; };
+		CB46FEB8191E9D9E00D327B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46FEB7191E9D9E00D327B3 /* UIKit.framework */; };
+		CB46FEBE191E9D9E00D327B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB46FEBC191E9D9E00D327B3 /* InfoPlist.strings */; };
+		CB46FEC0191E9D9E00D327B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FEBF191E9D9E00D327B3 /* main.m */; };
+		CB46FEC4191E9D9E00D327B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FEC3191E9D9E00D327B3 /* AppDelegate.m */; };
+		CB46FEC7191E9D9E00D327B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB46FEC5191E9D9E00D327B3 /* Main.storyboard */; };
+		CB46FECA191E9D9E00D327B3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FEC9191E9D9E00D327B3 /* MasterViewController.m */; };
+		CB46FECD191E9D9E00D327B3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FECC191E9D9E00D327B3 /* DetailViewController.m */; };
+		CB46FECF191E9D9E00D327B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB46FECE191E9D9E00D327B3 /* Images.xcassets */; };
+		CB46FED6191E9D9E00D327B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46FED5191E9D9E00D327B3 /* XCTest.framework */; };
+		CB46FED7191E9D9E00D327B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46FEB3191E9D9E00D327B3 /* Foundation.framework */; };
+		CB46FED8191E9D9E00D327B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46FEB7191E9D9E00D327B3 /* UIKit.framework */; };
+		CB46FEE0191E9D9E00D327B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB46FEDE191E9D9E00D327B3 /* InfoPlist.strings */; };
+		CB46FEE2191E9D9E00D327B3 /* PrySqliteCrudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FEE1191E9D9E00D327B3 /* PrySqliteCrudTests.m */; };
+		CB46FEF1191EA09B00D327B3 /* NuevoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FEF0191EA09B00D327B3 /* NuevoViewController.m */; };
+		CB46FEF3191EA24A00D327B3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB46FEF2191EA24A00D327B3 /* libsqlite3.dylib */; };
+		CB46FEF6191EA2C900D327B3 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FEF5191EA2C900D327B3 /* Movie.m */; };
+		CB46FEF9191EA33B00D327B3 /* DatabaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46FEF8191EA33B00D327B3 /* DatabaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB46FED9191E9D9E00D327B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB46FEA8191E9D9E00D327B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB46FEAF191E9D9E00D327B3;
+			remoteInfo = PrySqliteCrud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB46FEB0191E9D9E00D327B3 /* PrySqliteCrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrySqliteCrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB46FEB3191E9D9E00D327B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB46FEB5191E9D9E00D327B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB46FEB7191E9D9E00D327B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB46FEBB191E9D9E00D327B3 /* PrySqliteCrud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrySqliteCrud-Info.plist"; sourceTree = "<group>"; };
+		CB46FEBD191E9D9E00D327B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB46FEBF191E9D9E00D327B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB46FEC1191E9D9E00D327B3 /* PrySqliteCrud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrySqliteCrud-Prefix.pch"; sourceTree = "<group>"; };
+		CB46FEC2191E9D9E00D327B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB46FEC3191E9D9E00D327B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB46FEC6191E9D9E00D327B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB46FEC8191E9D9E00D327B3 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CB46FEC9191E9D9E00D327B3 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CB46FECB191E9D9E00D327B3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CB46FECC191E9D9E00D327B3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CB46FECE191E9D9E00D327B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB46FED4191E9D9E00D327B3 /* PrySqliteCrudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrySqliteCrudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB46FED5191E9D9E00D327B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB46FEDD191E9D9E00D327B3 /* PrySqliteCrudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrySqliteCrudTests-Info.plist"; sourceTree = "<group>"; };
+		CB46FEDF191E9D9E00D327B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB46FEE1191E9D9E00D327B3 /* PrySqliteCrudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrySqliteCrudTests.m; sourceTree = "<group>"; };
+		CB46FEEF191EA09B00D327B3 /* NuevoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoViewController.h; sourceTree = "<group>"; };
+		CB46FEF0191EA09B00D327B3 /* NuevoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoViewController.m; sourceTree = "<group>"; };
+		CB46FEF2191EA24A00D327B3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CB46FEF4191EA2C900D327B3 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		CB46FEF5191EA2C900D327B3 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		CB46FEF7191EA33B00D327B3 /* DatabaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseController.h; sourceTree = "<group>"; };
+		CB46FEF8191EA33B00D327B3 /* DatabaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB46FEAD191E9D9E00D327B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB46FEF3191EA24A00D327B3 /* libsqlite3.dylib in Frameworks */,
+				CB46FEB6191E9D9E00D327B3 /* CoreGraphics.framework in Frameworks */,
+				CB46FEB8191E9D9E00D327B3 /* UIKit.framework in Frameworks */,
+				CB46FEB4191E9D9E00D327B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB46FED1191E9D9E00D327B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB46FED6191E9D9E00D327B3 /* XCTest.framework in Frameworks */,
+				CB46FED8191E9D9E00D327B3 /* UIKit.framework in Frameworks */,
+				CB46FED7191E9D9E00D327B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB46FEA7191E9D9E00D327B3 = {
+			isa = PBXGroup;
+			children = (
+				CB46FEB9191E9D9E00D327B3 /* PrySqliteCrud */,
+				CB46FEDB191E9D9E00D327B3 /* PrySqliteCrudTests */,
+				CB46FEB2191E9D9E00D327B3 /* Frameworks */,
+				CB46FEB1191E9D9E00D327B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB46FEB1191E9D9E00D327B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEB0191E9D9E00D327B3 /* PrySqliteCrud.app */,
+				CB46FED4191E9D9E00D327B3 /* PrySqliteCrudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB46FEB2191E9D9E00D327B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEF2191EA24A00D327B3 /* libsqlite3.dylib */,
+				CB46FEB3191E9D9E00D327B3 /* Foundation.framework */,
+				CB46FEB5191E9D9E00D327B3 /* CoreGraphics.framework */,
+				CB46FEB7191E9D9E00D327B3 /* UIKit.framework */,
+				CB46FED5191E9D9E00D327B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB46FEB9191E9D9E00D327B3 /* PrySqliteCrud */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEEE191E9E7500D327B3 /* ControllersDB */,
+				CB46FEED191E9E6A00D327B3 /* Views */,
+				CB46FEEC191E9E4700D327B3 /* Controllers */,
+				CB46FEEB191E9E3D00D327B3 /* Models */,
+				CB46FEC2191E9D9E00D327B3 /* AppDelegate.h */,
+				CB46FEC3191E9D9E00D327B3 /* AppDelegate.m */,
+				CB46FECE191E9D9E00D327B3 /* Images.xcassets */,
+				CB46FEBA191E9D9E00D327B3 /* Supporting Files */,
+			);
+			path = PrySqliteCrud;
+			sourceTree = "<group>";
+		};
+		CB46FEBA191E9D9E00D327B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEBB191E9D9E00D327B3 /* PrySqliteCrud-Info.plist */,
+				CB46FEBC191E9D9E00D327B3 /* InfoPlist.strings */,
+				CB46FEBF191E9D9E00D327B3 /* main.m */,
+				CB46FEC1191E9D9E00D327B3 /* PrySqliteCrud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB46FEDB191E9D9E00D327B3 /* PrySqliteCrudTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEE1191E9D9E00D327B3 /* PrySqliteCrudTests.m */,
+				CB46FEDC191E9D9E00D327B3 /* Supporting Files */,
+			);
+			path = PrySqliteCrudTests;
+			sourceTree = "<group>";
+		};
+		CB46FEDC191E9D9E00D327B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEDD191E9D9E00D327B3 /* PrySqliteCrudTests-Info.plist */,
+				CB46FEDE191E9D9E00D327B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB46FEEB191E9E3D00D327B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEF4191EA2C900D327B3 /* Movie.h */,
+				CB46FEF5191EA2C900D327B3 /* Movie.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CB46FEEC191E9E4700D327B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEC8191E9D9E00D327B3 /* MasterViewController.h */,
+				CB46FEC9191E9D9E00D327B3 /* MasterViewController.m */,
+				CB46FECB191E9D9E00D327B3 /* DetailViewController.h */,
+				CB46FECC191E9D9E00D327B3 /* DetailViewController.m */,
+				CB46FEEF191EA09B00D327B3 /* NuevoViewController.h */,
+				CB46FEF0191EA09B00D327B3 /* NuevoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CB46FEED191E9E6A00D327B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEC5191E9D9E00D327B3 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CB46FEEE191E9E7500D327B3 /* ControllersDB */ = {
+			isa = PBXGroup;
+			children = (
+				CB46FEF7191EA33B00D327B3 /* DatabaseController.h */,
+				CB46FEF8191EA33B00D327B3 /* DatabaseController.m */,
+			);
+			name = ControllersDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB46FEAF191E9D9E00D327B3 /* PrySqliteCrud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB46FEE5191E9D9E00D327B3 /* Build configuration list for PBXNativeTarget "PrySqliteCrud" */;
+			buildPhases = (
+				CB46FEAC191E9D9E00D327B3 /* Sources */,
+				CB46FEAD191E9D9E00D327B3 /* Frameworks */,
+				CB46FEAE191E9D9E00D327B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrySqliteCrud;
+			productName = PrySqliteCrud;
+			productReference = CB46FEB0191E9D9E00D327B3 /* PrySqliteCrud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB46FED3191E9D9E00D327B3 /* PrySqliteCrudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB46FEE8191E9D9E00D327B3 /* Build configuration list for PBXNativeTarget "PrySqliteCrudTests" */;
+			buildPhases = (
+				CB46FED0191E9D9E00D327B3 /* Sources */,
+				CB46FED1191E9D9E00D327B3 /* Frameworks */,
+				CB46FED2191E9D9E00D327B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB46FEDA191E9D9E00D327B3 /* PBXTargetDependency */,
+			);
+			name = PrySqliteCrudTests;
+			productName = PrySqliteCrudTests;
+			productReference = CB46FED4191E9D9E00D327B3 /* PrySqliteCrudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB46FEA8191E9D9E00D327B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Henry AT";
+				TargetAttributes = {
+					CB46FED3191E9D9E00D327B3 = {
+						TestTargetID = CB46FEAF191E9D9E00D327B3;
+					};
+				};
+			};
+			buildConfigurationList = CB46FEAB191E9D9E00D327B3 /* Build configuration list for PBXProject "PrySqliteCrud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB46FEA7191E9D9E00D327B3;
+			productRefGroup = CB46FEB1191E9D9E00D327B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB46FEAF191E9D9E00D327B3 /* PrySqliteCrud */,
+				CB46FED3191E9D9E00D327B3 /* PrySqliteCrudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB46FEAE191E9D9E00D327B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB46FECF191E9D9E00D327B3 /* Images.xcassets in Resources */,
+				CB46FEBE191E9D9E00D327B3 /* InfoPlist.strings in Resources */,
+				CB46FEC7191E9D9E00D327B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB46FED2191E9D9E00D327B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB46FEE0191E9D9E00D327B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB46FEAC191E9D9E00D327B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB46FEF6191EA2C900D327B3 /* Movie.m in Sources */,
+				CB46FEC4191E9D9E00D327B3 /* AppDelegate.m in Sources */,
+				CB46FECA191E9D9E00D327B3 /* MasterViewController.m in Sources */,
+				CB46FEF9191EA33B00D327B3 /* DatabaseController.m in Sources */,
+				CB46FEC0191E9D9E00D327B3 /* main.m in Sources */,
+				CB46FECD191E9D9E00D327B3 /* DetailViewController.m in Sources */,
+				CB46FEF1191EA09B00D327B3 /* NuevoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB46FED0191E9D9E00D327B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB46FEE2191E9D9E00D327B3 /* PrySqliteCrudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB46FEDA191E9D9E00D327B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB46FEAF191E9D9E00D327B3 /* PrySqliteCrud */;
+			targetProxy = CB46FED9191E9D9E00D327B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB46FEBC191E9D9E00D327B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB46FEBD191E9D9E00D327B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB46FEC5191E9D9E00D327B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB46FEC6191E9D9E00D327B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB46FEDE191E9D9E00D327B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB46FEDF191E9D9E00D327B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB46FEE3191E9D9E00D327B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB46FEE4191E9D9E00D327B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB46FEE6191E9D9E00D327B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrySqliteCrud/PrySqliteCrud-Prefix.pch";
+				INFOPLIST_FILE = "PrySqliteCrud/PrySqliteCrud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB46FEE7191E9D9E00D327B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrySqliteCrud/PrySqliteCrud-Prefix.pch";
+				INFOPLIST_FILE = "PrySqliteCrud/PrySqliteCrud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB46FEE9191E9D9E00D327B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrySqliteCrud.app/PrySqliteCrud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrySqliteCrud/PrySqliteCrud-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PrySqliteCrudTests/PrySqliteCrudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB46FEEA191E9D9E00D327B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrySqliteCrud.app/PrySqliteCrud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrySqliteCrud/PrySqliteCrud-Prefix.pch";
+				INFOPLIST_FILE = "PrySqliteCrudTests/PrySqliteCrudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB46FEAB191E9D9E00D327B3 /* Build configuration list for PBXProject "PrySqliteCrud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB46FEE3191E9D9E00D327B3 /* Debug */,
+				CB46FEE4191E9D9E00D327B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB46FEE5191E9D9E00D327B3 /* Build configuration list for PBXNativeTarget "PrySqliteCrud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB46FEE6191E9D9E00D327B3 /* Debug */,
+				CB46FEE7191E9D9E00D327B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB46FEE8191E9D9E00D327B3 /* Build configuration list for PBXNativeTarget "PrySqliteCrudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB46FEE9191E9D9E00D327B3 /* Debug */,
+				CB46FEEA191E9D9E00D327B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB46FEA8191E9D9E00D327B3 /* Project object */;
+}
